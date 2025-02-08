@@ -1,0 +1,7 @@
+2025-02-08 22:00:52,343 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/oris_semester (PostgreSQL 16.4)
+2025-02-08 22:00:52,406 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.029s)
+2025-02-08 22:00:52,422 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1
+2025-02-08 22:00:52,425 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2025-02-08 22:00:52,447 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.semesterwork.listener.ContextListener- contextInitialized
+2025-02-08 22:00:53,626 [http-nio-8080-exec-4] INFO  ru.itis.semesterwork.repository.JdbcTemplate- select * from users where session_id = ?: successfully executed
+2025-02-08 22:01:22,498 [main] INFO  ru.itis.semesterwork.listener.ContextListener- contextDestroyed

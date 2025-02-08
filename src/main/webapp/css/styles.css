@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Clab_Bold;
+    src: url("../Clab Personal Use-Bold.otf")
+}
+@font-face {
+    font-family: Clab, sans-serif;
+    src: url("../Clab Personal Use-Regular.otf");
+}
+.custom-bg-color {
+    background-color: #659dbd;
+}
+.custom-font {
+    font-family: Clab, sans-serif;
+}
+.custom-font-bold {
+    font-family: Clab_Bold, sans-serif;
+}
+.navbar-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.login-container {
+    width: 100%;
+    max-width: 400px; /* Максимальная ширина контейнера */
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logotype {
+    height: 40px;
+}
+.message {
+    font-size: 12px;
+}
+.skill-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.skill-container a {
+    color: #fff;
+    text-decoration: none;
+}
+.skill-header {
+    font-family: Clab_Bold, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.skill-body {
+    line-height: 2px;
+    padding: 5px;
+    font-size:12px;
+    flex: 1 1 40%;
+}
+
+.black-color {
+    color: #000000;
+}
+
+.custom-active {
+    background-color: darkgray;
+}
+.mini-container {
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Задаем фиксированную ширину */
+    z-index: 1000; /* Убедиться, что контейнер сверху других элементов */
+}
+
